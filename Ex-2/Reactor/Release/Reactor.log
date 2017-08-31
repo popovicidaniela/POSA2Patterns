@@ -1,0 +1,21 @@
+﻿Build started 20-Sep-15 17:48:57.
+     1>Project "C:\Users\Daniela\Documents\Visual Studio 2015\Projects\Ex-2\Reactor\Reactor.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (Reactor.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\ReactorPattern.pdb" /Gd /TP /analyze- /errorReport:prompt PatientEvent.cpp
+         PatientEvent.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\Daniela\Documents\Visual Studio 2015\Projects\Ex-2\Release\ReactorPattern.lib" /NOLOGO /LTCG Release\AlarmEvent.obj
+         Release\AlarmEventHandler.obj
+         Release\Demux_Table.obj
+         Release\Event_Handler.obj
+         Release\PatientEvent.obj
+         Release\PatientEventHandler.obj
+         Release\Reactor.obj
+         Release\Reactor_Implementation.obj
+         Reactor.vcxproj -> C:\Users\Daniela\Documents\Visual Studio 2015\Projects\Ex-2\Release\ReactorPattern.lib
+     1>Done Building Project "C:\Users\Daniela\Documents\Visual Studio 2015\Projects\Ex-2\Reactor\Reactor.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.92

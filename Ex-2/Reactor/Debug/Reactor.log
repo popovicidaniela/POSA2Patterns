@@ -1,0 +1,24 @@
+﻿Build started 11-Oct-15 16:29:57.
+     1>Project "C:\Users\Daniela\Documents\GitHubVisualStudio\ARDI_2015F\Ex-2\Reactor\Reactor.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Reactor.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\ReactorPattern.pdb" /Gd /TP /analyze- /errorReport:prompt AcceptorEventHandler.cpp
+         AcceptorEventHandler.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\Daniela\Documents\GitHubVisualStudio\ARDI_2015F\Ex-2\Debug\ReactorPattern.lib" /NOLOGO Debug\AcceptorEventHandler.obj
+         Debug\AlarmEvent.obj
+         Debug\AlarmEventHandler.obj
+         Debug\Demux_Table.obj
+         Debug\Event_Handler.obj
+         Debug\LogEvent.obj
+         Debug\LogEventHandler.obj
+         Debug\PatientEvent.obj
+         Debug\PatientEventHandler.obj
+         Debug\Reactor.obj
+         Debug\Reactor_Implementation.obj
+         Reactor.vcxproj -> C:\Users\Daniela\Documents\GitHubVisualStudio\ARDI_2015F\Ex-2\Debug\ReactorPattern.lib
+     1>Done Building Project "C:\Users\Daniela\Documents\GitHubVisualStudio\ARDI_2015F\Ex-2\Reactor\Reactor.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.42

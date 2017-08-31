@@ -1,0 +1,13 @@
+﻿Build started 19-Sep-15 17:10:46.
+     1>Project "C:\Users\Daniela\Documents\Visual Studio 2015\Projects\Ex-1\WrapperFacade\WrapperFacade.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\Daniela\Documents\Visual Studio 2015\Projects\Ex-2\Release\WrapperFacade.lib" /NOLOGO /LTCG Release\INET_Addr.obj
+         Release\SOCK_Acceptor.obj
+         Release\SOCK_Connector.obj
+         Release\SOCK_Stream.obj
+         WrapperFacade.vcxproj -> C:\Users\Daniela\Documents\Visual Studio 2015\Projects\Ex-2\Release\WrapperFacade.lib
+     1>Done Building Project "C:\Users\Daniela\Documents\Visual Studio 2015\Projects\Ex-1\WrapperFacade\WrapperFacade.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.67

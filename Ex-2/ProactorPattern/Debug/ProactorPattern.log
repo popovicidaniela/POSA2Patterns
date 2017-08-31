@@ -1,0 +1,21 @@
+﻿Build started 11-Oct-15 23:31:06.
+     1>Project "C:\Users\Daniela\Documents\GitHubVisualStudio\ARDI_2015F\Ex-2\ProactorPattern\ProactorPattern.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\ProactorPattern.pdb" /Gd /TP /analyze- /errorReport:prompt Async_Stream.cpp Concrete_Completion_Handler.cpp Proactor.cpp Win32_Proactor_Implementation.cpp
+         Win32_Proactor_Implementation.cpp
+         Proactor.cpp
+         Concrete_Completion_Handler.cpp
+         Async_Stream.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\Daniela\Documents\GitHubVisualStudio\ARDI_2015F\Ex-2\Debug\ProactorPattern.lib" /NOLOGO Debug\Async_Result.obj
+         Debug\Async_Stream.obj
+         Debug\Concrete_Completion_Handler.obj
+         Debug\Proactor.obj
+         Debug\Win32_Proactor_Implementation.obj
+         ProactorPattern.vcxproj -> C:\Users\Daniela\Documents\GitHubVisualStudio\ARDI_2015F\Ex-2\Debug\ProactorPattern.lib
+     1>Done Building Project "C:\Users\Daniela\Documents\GitHubVisualStudio\ARDI_2015F\Ex-2\ProactorPattern\ProactorPattern.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.06

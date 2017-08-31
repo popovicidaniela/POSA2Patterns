@@ -1,0 +1,10 @@
+Feedback to Learner
+22/10/15 12:12
+Hi Group 12,
+I have approved your hand-in. You have made an ok report and selected to implement the proactor.
+I have some comments to your solution:
+- it is fine having both the synchronous and the asynchronous connector, but in the implementation you will always connect synchronously as your wrapper facade call to SOCK_Connector is the same using a blocking socket for the connection. (se my slides where I am using a different operation in the wrapper).
+- You have selected the proactor, which gives you some implementation challenges as it is the most complicated to implement. You had an error in the GetQueuedCompletionStatus, which I think is due to an error in my proactor slides (and in the book) - as the third parameter should be a pointer to an unsigned long).
+You could also have implemented the acceptor using an asynchronous AcceptEX operation, which will make your solution more stright - as it would only use the Proactor and not both having a Reactor and a Proactor instance. You would actullay run into trouble by having two reactive waiting loops.
+Br
+Finn

@@ -1,0 +1,7 @@
+Feedback to Learner
+280915 1013
+Hi Group 12,
+An ok solution to the exercise, there are room for some improvements mostly at the server site - so that more clients are able to connect, meaning that the acceptor part can be registrered at the Reactor as well as an even handler. But this will be covered in exercise 4 with the Acceptor template class.
+Your problem with the Singleton pattern could be that you should initialize the static instance pointer outside of he class (a little strange requirements).
+Br
+Finn
